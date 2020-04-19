@@ -1,32 +1,28 @@
 import baselinetitle from './components/baseline-title';
+import bordertitle from './components/border-title';
 
-const components = {
-    baselinetitle
-};
+const components = [
+    baselinetitle,
+    bordertitle
+];
 
-const viewg = {
-    ...components
-};
 
-const install = function(Vue, opts = {}) {
+
+const install = function (Vue) {
+    // 判断是否安装
     if (install.installed) return;
-
-    Object.keys(viewg).forEach(key => {
-        Vue.component(key, viewg[key]);
-    });
+    // 遍历注册全局组件
+    components.map(component => Vue.component(component.name, component))
 };
 
-// auto install
+// 判断是否是直接引入文件
 if (typeof window !== 'undefined' && window.Vue) {
     install(window.Vue);
 }
 
-const API = {
-    version: process.env.VERSION, // eslint-disable-line no-undef
+export default {
+    // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
     install,
+    // 以下是具体的组件列表
     ...components
 };
-
-
-
-module.exports.default = module.exports = API;   // eslint-disable-line no-undef

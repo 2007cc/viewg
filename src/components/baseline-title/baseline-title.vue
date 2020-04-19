@@ -4,11 +4,11 @@
 
 <script>
     export default {
-        name: "baseline-title",
-        props:{
-            title:String
+        name: "baselinetitle",
+        props: {
+            title: String
         }
-    }
+    };
 </script>
 
 
