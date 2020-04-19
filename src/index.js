@@ -1,11 +1,13 @@
 import baselinetitle from './components/baseline-title';
 import bordertitle from './components/border-title';
 import leftlinetitle from './components/leftline-title';
+import recttitle from './components/rect-title';
 
 const components = [
     baselinetitle,
     bordertitle,
-    leftlinetitle
+    leftlinetitle,
+    recttitle
 ];
 
 
