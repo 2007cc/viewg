@@ -1,13 +1,12 @@
 {
-    "name": "view-design",
-    "version": "4.1.1",
-    "title": "ViewUI",
+    "name": "viewg",
+    "version": "1.1.1",
+    "title": "viewg",
     "description": "A high quality UI components Library with Vue.js",
-    "homepage": "http://www.iviewui.com",
+    "homepage": "http://www.viewg.com",
     "keywords": [
         "viewg",
         "vue",
-        "viewui",
         "vue.js",
         "component",
         "components",

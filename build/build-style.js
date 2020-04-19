@@ -22,4 +22,13 @@ gulp.task('fonts', function () {
         .pipe(gulp.dest('../dist/styles/fonts'));
 });
 
-gulp.task('default', ['css', 'fonts']);
+
+
+
+gulp.task('assets', function () {
+    gulp.src('../src/assets/**/*')
+        .pipe(gulp.dest('../dist/assets'));
+});
+
+
+gulp.task('default', ['css', 'fonts','assets']);
