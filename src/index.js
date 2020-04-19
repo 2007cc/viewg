@@ -4,6 +4,7 @@ import leftlinetitle from './components/leftline-title';
 import recttitle from './components/rect-title';
 import singlebkcard from './components/single-bk-card';
 import rectbordercard from './components/rect-border-card';
+import rectcard from './components/rect-card';
 
 const components = [
     baselinetitle,
@@ -11,7 +12,8 @@ const components = [
     leftlinetitle,
     recttitle,
     singlebkcard,
-    rectbordercard
+    rectbordercard,
+    rectcard
 ];
 
 
