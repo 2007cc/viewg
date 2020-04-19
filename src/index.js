@@ -2,12 +2,16 @@ import baselinetitle from './components/baseline-title';
 import bordertitle from './components/border-title';
 import leftlinetitle from './components/leftline-title';
 import recttitle from './components/rect-title';
+import singlebkcard from './components/single-bk-card';
+import rectbordercard from './components/rect-border-card';
 
 const components = [
     baselinetitle,
     bordertitle,
     leftlinetitle,
-    recttitle
+    recttitle,
+    singlebkcard,
+    rectbordercard
 ];
 
 
