@@ -1,6 +1,6 @@
 <template>
     <div class="single-bk-car">
-        <solt></solt>
+        <slot></slot>
     </div>
 </template>
 
