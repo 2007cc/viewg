@@ -5,6 +5,8 @@ import recttitle from './components/rect-title';
 import singlebkcard from './components/single-bk-card';
 import rectbordercard from './components/rect-border-card';
 import rectcard from './components/rect-card';
+import icontitlesub from './components/icon-title-sub';
+import icongroup from './components/icon-group';
 
 const components = [
     baselinetitle,
@@ -13,7 +15,9 @@ const components = [
     recttitle,
     singlebkcard,
     rectbordercard,
-    rectcard
+    rectcard,
+    icontitlesub,
+    icongroup
 ];
 
 
