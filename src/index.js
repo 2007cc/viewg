@@ -8,6 +8,8 @@ import rectcard from './components/rect-card';
 import icontitlesub from './components/icon-title-sub';
 import icongroup from './components/icon-group';
 import rectpoint from './components/rect-point';
+import pictitle from './components/pic-title';
+import picinfo from './components/pic-info'
 
 const components = [
     baselinetitle,
@@ -19,7 +21,9 @@ const components = [
     rectcard,
     icontitlesub,
     icongroup,
-    rectpoint
+    rectpoint,
+    pictitle,
+    picinfo
 ];
 
 
