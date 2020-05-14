@@ -10,6 +10,7 @@ import icongroup from './components/icon-group';
 import rectpoint from './components/rect-point';
 import pictitle from './components/pic-title';
 import picinfo from './components/pic-info'
+import rectanchor from './components/rect-anchor';
 
 const components = [
     baselinetitle,
@@ -23,7 +24,8 @@ const components = [
     icongroup,
     rectpoint,
     pictitle,
-    picinfo
+    picinfo,
+    rectanchor
 ];
 
 
